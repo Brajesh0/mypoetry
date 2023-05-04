@@ -1,0 +1,213 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+nav ul {
+    display: flex;
+    height: 53px;
+    width: 100vw;
+    background-color: #eeecea;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+
+.logo img{
+    height: 33px;
+    width: 33px;
+    margin-left: 22px;
+    
+}
+nav ul h3{
+    font-family: 'Cabin', sans-serif;
+}
+
+.main_container{
+    min-height: calc(100vh - 53px - 34px - 2px);
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+.post_profile{
+    width: 300px;
+    height: 500px;
+    background-color: #d20f0f;
+}
+.post_profile img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.post_container{
+    width: 800px;
+    height: 500px;
+    background-color: #12c778;
+    color: rgb(20, 18, 18);
+
+}
+
+.post_header{
+    display: flex;
+    height: 50px;
+    width: 800px;
+    background-color: blueviolet;
+    color: black;
+}
+
+.post_header img{
+    border-radius: 50%;
+    padding: 4px;
+}
+.post_header h4{
+    padding: 10px;
+    color: #d37313;
+}
+
+.login_container{
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.login_icon{
+    height: 40px;
+    width: 400px;
+    padding: 10px 150px;
+
+}
+.applogo{
+    height: 40px;
+    width: 400px;
+    padding: 10px 145px;
+    font-family: 'Cabin', sans-serif;
+}
+
+form{
+    width: 400px;
+    padding: 10px;
+}
+
+.r_submit{
+    display: flex;
+    justify-content: center;
+}
+.r_submit button{
+    height: 35px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: #4343f1;
+    margin: 20px 10px;
+   
+}
+
+
+/* element.style {
+} */
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    width: 370px;
+    border-radius: 5px;
+}
+
+/* hide help text */
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: none;
+}
+.helptext{
+    display: none;
+}
+
+label {
+    display: inherit;
+}
+
+
+/* profile page css */
+.main_profile_container{
+    min-height: calc(100vh - 53px - 34px - 2px);
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cover-and-profile_container{
+    width: 1150px;
+    height: 570px;
+    border: 1px solid;
+    
+}
+
+.cover_profile_layout{
+    position: relative;
+    display: flex;
+    width: 1150px;
+    height: 445px;
+    border: 1px solid;
+}
+.cover_photo img{
+    width: 1148px;
+    height: 444px;
+}
+
+.profile_photo{
+    z-index: 1;
+    position: absolute;
+    width: 140px;
+    top: calc(100% - 70px);
+    border: 4px solid #fff;
+    left: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex: 1 0 auto;
+    display: flex;
+}
+
+
+
+/* .bgg{
+    position: relative;
+
+}
+.text h1{
+    position: absolute;
+    top: 25%;
+    color: rgb(169, 22, 22);
+    padding: 20px;
+} */
+
+
+footer{
+    display: flex;
+    width: 100vw;
+    height: 34px;
+    font-family:'Cabin', sans-serif ;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #eeecea;
+    position: sticky;
+    z-index: 2;
+
+}
